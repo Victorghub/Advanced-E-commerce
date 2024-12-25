@@ -3,7 +3,8 @@ function renderBooks() {
   console.log(booksWrapper);
 
   const books = getBooks();
-  console.log(books)
+  console.log(books) 
+  
 
   booksWrapper.innerHTML =
   `<div class="book">
